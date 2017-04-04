@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="cb_preference_1"
+        android:title="@string/check_box_preference"
+        android:summary="@string/description_of_check_box"/>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="list_preference_1"
+        android:title="@string/list_preference"
+        android:summary="@string/description_of_list"/>
+
+    <PreferenceScreen
+        android:key="screen"
+        android:summary="@string/description_of_screen"
+        android:title="@string/screen_preference">
+
+        <PreferenceCategory
+            android:key="pref_cat_1"
+            android:summary="@string/description_of_category_1"
+            android:title="@string/preference_category_1">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cb_pref_1_cat_1"
+                android:summary="@string/description_of_check_box_1_of_preference_category_1"
+                android:title="@string/check_box_1_of_preference_category_1"/>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cb_pref_2_cat_1"
+                android:summary="@string/description_of_check_box_2_of_preference_category_1"
+                android:title="@string/check_box_2_of_preference_category_1"/>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cb_pref_3_cat_1"
+                android:summary="@string/description_of_check_box_3_of_preference_category_1"
+                android:title="@string/check_box_3_of_preference_category_1"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="pref_cat_2"
+            android:summary="@string/description_of_category_2"
+            android:title="@string/preference_category_2">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cb_pref_1_cat_2"
+                android:summary="@string/description_of_check_box_1_of_preference_category_2"
+                android:title="@string/check_box_1_of_preference_category_2"/>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="cb_pref_2_cat_2"
+                android:summary="@string/description_of_check_box_2_of_preference_category_2"
+                android:title="@string/check_box_2_of_preference_category_2"/>
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+</PreferenceScreen>

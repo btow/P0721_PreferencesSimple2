@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">P0721_PreferencesSimple2</string>
+    <string name="check_box_preference">Check box preference</string>
+    <string name="description_of_check_box">Description of check box</string>
+    <string name="list_preference">List preference</string>
+    <string name="description_of_list">Description of list</string>
+    <string name="description_of_screen">Description of screen</string>
+    <string name="screen_preference">Screen preference</string>
+    <string name="description_of_category_1">Description of category 1</string>
+    <string name="description_of_category_2">Description of category 2</string>
+    <string name="preference_category_1">Preference category 1</string>
+    <string name="preference_category_2">Preference category 2</string>
+    <string name="description_of_check_box_1_of_preference_category_1">Description of check box 1 of Preference category 1</string>
+    <string name="description_of_check_box_1_of_preference_category_2">Description of check box 1 of Preference category 2</string>
+    <string name="check_box_1_of_preference_category_1">Check box 1 of Preference category 1</string>
+    <string name="check_box_1_of_preference_category_2">Check box 1 of Preference category 2</string>
+    <string name="description_of_check_box_2_of_preference_category_1">Description of check box 2 of Preference category 1</string>
+    <string name="description_of_check_box_2_of_preference_category_2">Description of check box 2 of Preference category 2</string>
+    <string name="check_box_2_of_preference_category_1">Check box 2 of Preference category 1</string>
+    <string name="check_box_2_of_preference_category_2">Check box 2 of Preference category 2</string>
+    <string name="description_of_check_box_3_of_preference_category_1">Description of check box 3 of Preference category 1</string>
+    <string name="check_box_3_of_preference_category_1">Check box 3 of Preference category 1</string>
+    <string name="not_selected">Not selected</string>
+    <string name="value_of_list_">Value of list - </string>
+    <string name="preferences">Preferences</string>
+
+    <string-array name="entries">
+        <item name="one">One</item>
+        <item name="two">Two</item>
+        <item name="three">Three</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+</resources>
